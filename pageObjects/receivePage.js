@@ -2,14 +2,12 @@
 
 var BasePage = require('./baseProtractorPage.js');
 
-var givePage = function(){
+var receivePage = function(){
     var basePage  = new BasePage();
 };
 
-givePage.prototype = Object.create({},{
+receivePage.prototype = Object.create({},{
 
 });
 
-module.exports = givePage;
-
-
+module.exports = receivePage;
