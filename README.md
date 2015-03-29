@@ -7,5 +7,4 @@
 * Press Alt + F12 to open WebStorm console
 * npm install -g protractor
 * Type WebDriver-manager update
-* Type WebDriver-manager start
 * Run/debug tests by clicking run/debug button of WebStorm
