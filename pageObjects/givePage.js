@@ -1,15 +1,13 @@
 'use strict';
+(function () {
 
-var BasePage = require('./baseProtractorPage.js');
+    var BasePage = require('./baseProtractorPage.js');
 
-var givePage = function(){
-    var basePage  = new BasePage();
-};
+    var givePage = function () {
+        var basePage = new BasePage();
+    };
 
-givePage.prototype = Object.create({},{
+    givePage.prototype = Object.create({}, {});
 
-});
-
-module.exports = givePage;
-
-
+    module.exports = givePage;
+})();
